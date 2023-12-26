@@ -1,5 +1,5 @@
 baseURL: 'https://oxygec240.github.io/ruyiartstudio.github.io/'
-languageCode: 'en-uk'
+languageCode: 'en-us'
 title: 'Ruyi Art Studio'
 theme: 'PaperMod'
 
@@ -10,7 +10,7 @@ buildExpired: false
 
 params:
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: false
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
@@ -25,12 +25,37 @@ params:
   showtoc: true
   tocopen: false
 
-assets:
-  # disableHLJS: true # to disable highlight.js
-  # disableFingerprinting: true
-  favicon: "/assets/favicon.ico/"
-  favicon16x16: "/assets/favicon-16x16.png/"
-  favicon32x32: "/assets/favicon-32x32.png/"
-  apple_touch_icon: "/assets/apple-touch-icon.png/"
-  safari_pinned_tab: "/assets/apple-touch-icon.png/"
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/assets/favicon.ico/"
+    favicon16x16: "/assets/favicon-16x16.png/"
+    favicon32x32: "/assets/favicon-32x32.png/"
+    apple_touch_icon: "/assets/apple-touch-icon.png/"
+    safari_pinned_tab: "/assets/apple-touch-icon.png/"
 
+  homeInfoParams:
+    Title: "Good Morning"
+    Content: Thanks for coming to cheese
+
+  socialIcons:
+    - name: instagram
+      url: "https://instagram.com/"
+
+menu:
+  main:
+    - identifier: bio
+      name: Ruyi's Bio
+      url: /base/bio/
+      weight: 10
+    - identifier: sched
+      name: Schedule
+      url: /base/schedule/
+      weight: 20
+    - identifier: gallery
+      name: Student Gallery
+      url: /base/gallery/
+      weight: 30
+    - identifier: contact
+      name: Contact Us
+      url: /base/contact/
