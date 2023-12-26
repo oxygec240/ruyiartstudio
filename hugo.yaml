@@ -34,8 +34,27 @@ params:
     apple_touch_icon: "/assets/apple-touch-icon.png/"
     safari_pinned_tab: "/assets/apple-touch-icon.png/"
 
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: Ruyi's Art Studio
+    subtitle: ""
+    imageUrl: "/assets/apple-touch-icon/"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: a
+    buttons:
+      - name: Ruyi's Bio
+        url: /base/bio/
+      - name: Schedule
+        url: /base/schedule/
+      - name: Student Gallery
+        url: /base/gallery/
+      - name: Contact Us
+        url: /base/contact
+
+
   homeInfoParams:
-    Title: "Good Morning"
+    Title: "Ruyi's Art Studio"
     Content: Thanks for coming to cheese
 
   socialIcons:
