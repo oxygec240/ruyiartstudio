@@ -22,40 +22,40 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: true
+  showtoc: false
   tocopen: false
 
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "/assets/favicon.ico/"
-    favicon16x16: "/assets/favicon-16x16.png/"
-    favicon32x32: "/assets/favicon-32x32.png/"
-    apple_touch_icon: "/assets/apple-touch-icon.png/"
-    safari_pinned_tab: "/assets/apple-touch-icon.png/"
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png/"
+    favicon32x32: "/favicon-32x32.png/"
+    apple_touch_icon: "/apple-touch-icon.png/"
+    safari_pinned_tab: "/apple-touch-icon.png/"
 
   profileMode:
     enabled: false # needs to be explicitly set
     title: Ruyi's Art Studio
     subtitle: ""
-    imageUrl: "/assets/apple-touch-icon/"
+    imageUrl: /ruyiartstudio.github.io/assets/apple-touch-icon/
     imageWidth: 120
     imageHeight: 120
     imageTitle: a
     buttons:
       - name: Ruyi's Bio
-        url: /base/bio/
+        url: /ruyiartstudio.github.io/base/bio/
       - name: Schedule
         url: /base/schedule/
       - name: Student Gallery
-        url: /base/gallery/
+        url: /gallery/
       - name: Contact Us
-        url: /base/contact
+        url: /base/contact/
 
 
   homeInfoParams:
     Title: "Ruyi's Art Studio"
-    Content: Thanks for coming to cheese
+    Content: 
 
   socialIcons:
     - name: instagram
