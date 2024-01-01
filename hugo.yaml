@@ -9,7 +9,7 @@ buildFuture: false
 buildExpired: false
 
 params:
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: false
   ShowBreadCrumbs: false
@@ -42,20 +42,22 @@ params:
     imageWidth: 120
     imageHeight: 120
     imageTitle: a
-    buttons:
-      - name: Ruyi's Bio
-        url: /ruyiartstudio.github.io/base/bio/
-      - name: Schedule
-        url: /base/schedule/
-      - name: Student Gallery
-        url: /gallery/
-      - name: Contact Us
-        url: /base/contact/
+    # buttons:
+    #   - name: About Ruyi's Art Studio
+    #     url: /base/about
+    #   - name: Ruyi's Bio
+    #     url: /base/bio
+    #   - name: Schedule
+    #     url: /base/schedule
+    #   - name: Student Gallery
+    #     url: /gallery/
+    #   - name: Contact Us
+    #     url: /base/contact/
 
 
   homeInfoParams:
-    Title: "Ruyi's Art Studio"
-    Content: 
+  #   Title: "Ruyi's Art "
+  #   Content: /base/about
 
   socialIcons:
     - name: instagram
@@ -63,18 +65,22 @@ params:
 
 menu:
   main:
+    - identifier: about
+      name: About Ruyi's Art Studio
+      url: /base/about/
+      weight: 10
     - identifier: bio
       name: Ruyi's Bio
       url: /base/bio/
-      weight: 10
+      weight: 20
     - identifier: sched
       name: Schedule
       url: /base/schedule/
-      weight: 20
+      weight: 30
     - identifier: gallery
       name: Student Gallery
       url: /base/gallery/
-      weight: 30
+      weight: 40
     - identifier: contact
       name: Contact Us
       url: /base/contact/
